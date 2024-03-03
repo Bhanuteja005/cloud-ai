@@ -1,14 +1,14 @@
 "use client";
-import React from "react";
 import {
+  MotionValue,
   motion,
   useScroll,
-  useTransform,
   useSpring,
-  MotionValue,
+  useTransform,
 } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
+import React from "react";
 
 export const HeroParallax = ({
   products,
@@ -105,12 +105,10 @@ export const Header = () => {
   return (
     <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0">
       <h1 className="text-2xl md:text-7xl font-bold dark:text-white">
-        The Ultimate <br /> development studio
+        Who are we <br />
       </h1>
       <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
-        We build beautiful products with the latest technologies and frameworks.
-        We are a team of passionate developers and designers that love to build
-        amazing products.
+      We are building next generation AI product which solves cloud costs visually . please help us  by contributing through providing ur any  cloud  architecture diagrams with  appropriate description. make sure that architecture diagram is clearly visible.
       </p>
     </div>
   );

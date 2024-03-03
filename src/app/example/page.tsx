@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from 'react';
 import { HeroParallaxDemo } from './HeroParallaxDemo';
-import { ParallaxScrollDemo } from './ParallaxScrollDemo';
 import { SparklesPreview } from './SparklesPreview';
 import { TextRevealCardPreview } from './TextRevealCardPreview';
 import { WavyBackgroundDemo } from './WavyBackgroundDemo';
@@ -20,7 +19,6 @@ export default function Page() {
       <SparklesPreview />
       <WavyBackgroundDemo />
       {!isTouchDevice && <TextRevealCardPreview />}
-      <ParallaxScrollDemo />
     </>
   );
 }

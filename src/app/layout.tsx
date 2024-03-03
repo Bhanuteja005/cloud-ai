@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Aceternity",
-  description: "Example of using the Aceternity UI components",
+  title: "Startup ",
+  description: "We are building next generation AI product which solves cloud costs visually . ",
 };
 
 export default function RootLayout({

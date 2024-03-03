@@ -1,5 +1,4 @@
 'use client';
-import React from 'react';
 import { GlowingStarsBackgroundCard, GlowingStarsDescription, GlowingStarsTitle } from '@/components/ui/glowing-stars';
 
 export function GlowingStarsBackgroundCardPreview() {
@@ -11,7 +10,7 @@ export function GlowingStarsBackgroundCardPreview() {
       className='group flex py-20 items-center justify-center antialiased'
     >
       <GlowingStarsBackgroundCard>
-        <GlowingStarsTitle>Example</GlowingStarsTitle>
+        <GlowingStarsTitle>CloudVisio</GlowingStarsTitle>
         <div className='flex justify-between items-center gap-1'>
           <GlowingStarsDescription className='text-xl'>Click here to see more</GlowingStarsDescription>
           <div className='h-8 w-8 rounded-full bg-[hsla(0,0%,100%,.1)] flex items-center justify-center inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none'>
