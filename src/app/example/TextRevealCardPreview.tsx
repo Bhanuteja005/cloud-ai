@@ -10,7 +10,7 @@ export function TextRevealCardPreview() {
     <div className="flex items-center justify-center my-8 mx-16 bg-[#0E0E10] h-[40rem] rounded-2xl">
       <TextRevealCard
       text="Explore Cloud Dynamics"
-      revealText="Understand the Technology"
+      revealText="Understand Technology"
       >
 <TextRevealCardTitle>
   Reveal Cloud Insights.
